@@ -34,3 +34,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# large image files - use optimized versions in public folder
+homepage.jpg
+barangayservices.jpg
+app/assets/images/
+
