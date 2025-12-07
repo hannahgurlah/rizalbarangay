@@ -2,6 +2,8 @@
 
 A modern, responsive website for Barangay Rizal, Municipality of Pinamungajan, Cebu built with Next.js, React, and Tailwind CSS.
 
+🌐 **Live Site**: [https://brgyrizal.vercel.app](https://brgyrizal.vercel.app)
+
 ## Features
 
 - 🏠 **Home Page** - Welcome section with hero banner
@@ -78,6 +80,13 @@ brgyrizal/
 ├── public/                  # Static assets
 └── package.json
 ```
+
+## Deployment
+
+This project is deployed on Vercel and automatically updates when changes are pushed to the main branch.
+
+- **Production URL**: [https://brgyrizal.vercel.app](https://brgyrizal.vercel.app)
+- **Vercel Dashboard**: [View deployments](https://vercel.com/hannah-panares-projects/brgyrizal)
 
 ## License
 
