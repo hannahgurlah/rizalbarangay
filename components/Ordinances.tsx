@@ -105,7 +105,7 @@ export default function Ordinances() {
     },
   ]
 
-  const years = ['all', ...new Set(ordinances.map(o => o.year))].sort((a, b) => {
+  const years = ['all', ...Array.from(new Set(ordinances.map(o => o.year)))].sort((a, b) => {
     if (a === 'all') return -1
     if (b === 'all') return 1
     return b.localeCompare(a)

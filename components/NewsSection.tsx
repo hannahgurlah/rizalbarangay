@@ -99,7 +99,7 @@ export default function NewsSection() {
     },
   ]
 
-  const categories = ['all', ...new Set(newsItems.map(item => item.category))]
+  const categories = ['all', ...Array.from(new Set(newsItems.map(item => item.category)))]
 
   const filteredNews = newsItems.filter(item => {
     const matchesSearch = item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||

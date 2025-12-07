@@ -145,7 +145,7 @@ export default function Resolutions() {
     },
   ]
 
-  const years = ['all', ...new Set(resolutions.map(r => r.year))].sort((a, b) => {
+  const years = ['all', ...Array.from(new Set(resolutions.map(r => r.year)))].sort((a, b) => {
     if (a === 'all') return -1
     if (b === 'all') return 1
     return b.localeCompare(a)
