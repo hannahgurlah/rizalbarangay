@@ -1,9 +1,15 @@
 import BrgyServicesHero from '@/components/BrgyServicesHero'
+import Breadcrumb from '@/components/Breadcrumb'
 
 export default function HealthPage() {
   return (
     <div className="flex flex-col">
       <BrgyServicesHero />
+      <Breadcrumb items={[
+        { label: 'Home', href: '/' },
+        { label: 'Barangay Services', href: '/barangay-services' },
+        { label: 'Health' }
+      ]} />
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">

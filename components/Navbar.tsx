@@ -103,19 +103,19 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
-              <div className="w-20 h-20 rounded-full flex items-center justify-center overflow-hidden">
+              <div className="w-24 h-24 rounded-full flex items-center justify-center overflow-hidden">
                 <Image
                   src="/rizal-logo.png"
                   alt="Barangay Rizal Logo"
-                  width={70}
-                  height={70}
+                  width={100}
+                  height={100}
                   className="object-contain"
                 />
               </div>
-              <div>
-                <p className="text-sm font-semibold">Republic of the Philippines</p>
-                <p className="text-sm">Municipality of Pinamungajan</p>
-                <p className="text-sm font-bold">Barangay Rizal</p>
+              <div style={{ fontFamily: 'Georgia, serif' }}>
+                <p className="text-sm pb-1" style={{ fontSize: '16px' }}>Republic of the Philippines</p>
+                <p className="text-sm pb-2" style={{ fontSize: '20px' }}>Municipality of Pinamungajan</p>
+                <p className="text-sm" style={{ fontSize: '32px' }}>Barangay Rizal</p>
               </div>
             </div>
             <div className="hidden md:flex items-center space-x-4">

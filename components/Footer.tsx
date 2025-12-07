@@ -16,10 +16,10 @@ export default function Footer() {
                   className="object-contain"
                 />
               </div>
-              <div>
-                <p className="text-sm font-semibold">Republic of the Philippines</p>
-                <p className="text-sm">Municipality of Pinamungajan</p>
-                <p className="text-sm font-bold">BARANGAY RIZAL</p>
+              <div style={{ fontFamily: 'Georgia, serif' }}>
+                <p className="text-sm" style={{ fontSize: '14px' }}>Republic of the Philippines</p>
+                <p className="text-sm pb-1" style={{ fontSize: '16px' }}>Municipality of Pinamungajan</p>
+                <p className="text-sm" style={{ fontSize: '20px' }}>Barangay Rizal</p>
               </div>
             </div>
             <p className="text-primary-200 text-sm">
